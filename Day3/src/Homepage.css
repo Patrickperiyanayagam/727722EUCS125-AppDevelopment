@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+  }
+  
+  .body{
+    width: 100%;
+  }
+  
+  .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(55, 54, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+  }
+  
+  .webname{
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: cursive;
+  }
+  
+  .navlinks{
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    margin-right: 70px;
+    gap: 50px;
+  }
+  
+  .links{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .links:hover{
+    background-color: white;
+    color: black;
+  }
+  
+
+  .home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    background-color: #05445E;
+    width: 100%;
+    height: 800px;
+  }
+  
+  .homecontent{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .homecontent h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+  }
+  
+  .homecontent h4{
+    font-size: 25px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+  }
+  
+  .homeorder{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(84, 84, 99);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .homeorder:hover{
+    background-color: white;
+    color: blue;
+  }
+  
+  .homeimg{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeimg img{
+    width: 750px;
+    height: 500px;
+  }
+  .homeimg img{
+    border-radius: 30px;
+  }
+  
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #189AB4;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  
+  .aboutimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aboutimg img{
+    border-radius: 20px;
+  }
+  
+  .aboutcontent{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  
+  }
+  
+  .aboutcontent h1{
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    font-family: cursive;
+    margin-bottom: 30px;
+  }
+  
+  .aboutcontent h4{
+    color: white ;
+    font-weight: bold;
+    font-size: 45px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .aboutcontent p{
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+
+  .footer{
+    width: 100%;
+    background-color: #2d8793;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px
+  }
+  
+  .footer h1{
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  .name{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footermenu{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footermenu h1{
+    font-size: 40px;
+    padding: 20px;
+  }
+  
+  .footerlinks{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+    font-family: cursive;
+  }
+  
+  .footerlinks:hover{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+  
