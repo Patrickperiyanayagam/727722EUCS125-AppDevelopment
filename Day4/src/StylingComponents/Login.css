@@ -1,0 +1,80 @@
+*{
+    margin: 0px
+}
+
+.loginbody{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to right, #E5D9F2 , #CDC1FF);
+}
+
+.loginform{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginformdiv{
+    width: 700px;
+    height: 700px;
+    /* background-color: blue; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 100px;
+}
+
+.loginformdiv h1{
+    font-size: 48px;
+    font-weight: 800;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+}
+.loginformdiv h2{
+    font-size: 28px;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+}
+.loginformdiv h2 span{
+    font-size: 24px;
+    font-weight: 700;
+    color: purple;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.loginformdiv p{
+    padding-top: 25px;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.loginimg{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginimg img{
+    width: 95%;
+    height: 95%;
+    border-radius: 30px;
+}
+
+.loginformdiv .loginbtn{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(83, 28, 185);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
