@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "id": "5cfa",
+      "email": "patrick",
+      "name": "patrick",
+      "password": "patrick"
+    },
+    {
+      "id": "9a9b",
+      "email": "kiran",
+      "name": "kiran",
+      "password": "kiran"
+    },
+    {
+      "id": "7a29",
+      "email": "patrick@gmail.com",
+      "name": "patrick",
+      "password": "patperi"
+    },
+    {
+      "id": "83e7",
+      "email": "navadin@admin.com",
+      "name": "navadin",
+      "password": "navadin"
+    },
+    {
+      "id": "e458",
+      "email": "kirankumar",
+      "name": "kirankumar",
+      "password": "kirankumar"
+    },
+    {
+      "id": "f689",
+      "email": "kavin@gmail.com",
+      "name": "kavin",
+      "password": "vedapu"
+    }
+  ]
+}

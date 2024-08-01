@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+.signup_body{
+background-image: url(https://i.imgur.com/m9ty2M9.jpg);
+background-size: cover;
+display: flex;  
+justify-content: center;
+align-items: center;
+align-content: center;
+height: 100vh;
+/* height: 700px; */
+}
+.signup_Outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+.signup_Inner{
+    display: inline-flex;
+    width: 30vw;
+    height: 80vh;
+    border: 3px solid black;
+    border-radius: 15px;
+    opacity: 1;
+    color:black;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.025),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.036),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.044),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.05),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.057),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+background: transparent;;
+backdrop-filter: blur(8px);
+}
+.signup_box1{
+    border-radius: 20px;
+    width: 50%;
+    height: 8%;
+    /* background-color: blanchedalmond; */
+    background: transparent;
+    padding-left: 15px;
+    border: 2px solid black;
+    outline: none;
+    color: black;
+}
+.signup_box2{
+    width:100px;
+    height:100px;
+    border-radius: 15px;
+    background-color:black;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+.signup_read span{
+    font-weight: bold;
+}
+.signup_alreay span{
+    font-weight: bold;
+}
+.signup_already a{
+    color: black;
+    text-decoration: none;
+}
+
+.signup_Inner h3{
+    font-size: 40px;
+    color: black;
+}
+
+.signup_box2:hover{
+    background-color: black;
+    
+}
+
+.signup_already a:hover{
+    text-decoration: underline;
+}
+.signup_Inner label{
+    color: black;
+}
+.signup_forgot{
+    color: black;
+}
+::placeholder{
+    color: black;
+}
+.signup_Inner label input{
+    accent-color: black;
+}
+.signup_button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 23px;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family:serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.signup_segment1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+.signup_segment2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.signup_text{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #373737;
+    margin-left: 20px;
+}
